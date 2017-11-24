@@ -1,0 +1,5 @@
+# composerでインストールしたものは含めない
+/vendor/*
+
+# dbへの接続設定は含めない
+/config/configurations.php

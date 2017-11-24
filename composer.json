@@ -1,0 +1,28 @@
+{
+    "name": "soiweb/my-framework",
+    "description": "framework for soiweb",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Inoue Yutaro",
+            "email": "inoue.devel@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.9.1",
+        "j4mie/idiorm": "^1.5",
+        "j4mie/paris": "^1.5",
+        "symfony/yaml": "^3.3",
+        "pear/console_commandline": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Config\\": "config/",
+            "App\\Models\\": "app/Models/"
+        }
+    }
+}

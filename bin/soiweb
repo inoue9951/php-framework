@@ -1,0 +1,8 @@
+#!/usr/bin/php
+
+<?php
+
+require 'soiwebCli/Soiweb.php';
+
+$soiweb = new Soiweb();
+$soiweb->run();
